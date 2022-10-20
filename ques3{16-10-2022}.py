@@ -1,7 +1,4 @@
 #take input for first sec operator 
-from ast import operator
-
-
 num1=int(input("please input number1 :"))
 num2 = int (input ("please input number 2 :"))
 operatorr= str(input("please input operator:"))
