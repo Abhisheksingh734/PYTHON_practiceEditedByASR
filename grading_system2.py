@@ -2,6 +2,8 @@ x = int(input("please enter obtained marks :"))
 y = int(input("please enter total marks :"))
 z = (x/y)*100
 
+print("your percentage is",z,"%")
+
 if z>=33 and z<=50 :
     print("congratulations you PASSED the exam. and your grade is D")
 elif z>50 and z<=75 :
