@@ -8,4 +8,5 @@ colors.extend(cars)
 colors.extend(players)
 colors.remove("Red")
 colors.pop(3)
+
 print(colors)
