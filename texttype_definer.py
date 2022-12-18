@@ -2,8 +2,7 @@ str1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 str2 = "1234567890"
 alph = 0
 num = 0
-def typetester():
-    x = str(input("please enter your text:"))
+x = str(input("please enter your text:"))
 for i in x:
     if i in str1 and i not in str2:
         alph+=1
@@ -19,5 +18,4 @@ else :
     print("invalid data :(")
 print("number of alphabets:",alph)
 print("number of numerics:",num)
-typetester()
 
